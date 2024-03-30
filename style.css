@@ -1,0 +1,118 @@
+** {
+    box-sizing: border-box;
+}
+html {
+    background-color: hsl(47, 88%, 63%);
+}
+body{
+    background-color: hsl(0, 0%, 100%);
+    border: solid 1px hsl(0, 0%, 7%);
+    box-shadow: 5px 5px 0;
+    border-radius: 10px;
+    padding: 20px 20px 10px 20px;
+    width: 20%;
+    margin: 120px auto;
+    height: 20%;
+}
+
+body:hover {
+    box-shadow: 10px 10px 0;
+}
+p span{
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 10px;
+    line-height: 1.6;
+    font-size: 12px;
+    border-radius: 5px;
+    font-family: 'Figtree';
+    font-weight: 800;
+}
+
+p {
+    font-size: 10px;
+    font-family: 'Figtree';
+    font-weight: 500;
+}
+.card {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.card + p {
+    margin-top: 20px;
+}
+.avatar {
+    border-radius: 50%;
+    height: 30px;
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+footer p {
+    margin-top: 7px;
+    font-family: 'Figtree';
+    font-weight: 800;
+    font-size: 12px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+}
+
+h3 {
+    font-family: 'Figtree';
+    font-weight: 800;
+    margin: 0 auto;
+}
+
+h3:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+h3 + p{
+    font-family: 'Figtree';
+    font-weight: 200;
+    font-size: 12px;
+    color: hsl(0, 0%, 50%);
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/static/Figtree-SemiBold.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+@media  screen and (max-width: 375px) {
+    body {
+        box-sizing: border-box;
+        width: 90%;
+        height: 40%;
+        margin: 80px auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body{
+        max-width: 20%;
+        margin: 300px auto;
+        max-height: 20%;
+        box-sizing: border-box;
+    }
+    
+}
