@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Github live site](https://your-live-site-url.com)
+- Live Site URL: [Github live site](https://ltoyyib.github.io/Blog-preview-card/)
 
 ## My process
 
